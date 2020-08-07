@@ -6,6 +6,20 @@
 
 	<string name="deeplink">Deep Link</string>
 
+	<!-- fragment strings -->
+	<string name="cancel">Cancel</string>
+	<string name="confirm">Confirm</string>
+	<string name="sign_in">Sign in</string>
+	<string name="sign_up">Sign up</string>
+	<string name="join_us">Join us</string>
+	<string name="account">account</string>
+	<string name="password">password</string>
+	<string name="email_address">email address</string>
+	<string name="account_or_not">Have a account ? Login</string>
+	<string name="tips_long">Hoo is a App about sneakers. Want to learn more about sneakers,Let us Begin</string>
+	<string name="tips_join">Hey, Join us!</string>
+	<string name="tips_login">Welcome back</string>
+
 	<!-- Screen strings -->
 	<string name="step_one">Step One</string>
 	<string name="step_two">Step Two</string>
@@ -19,9 +33,9 @@
 	<string name="send_deep_link_notification_button">Send deep link notification</string>
 
 
-	<string name="prompt_empty">暂时还没有收藏记录～</string>
-	<string name="prompt_error">这边有错误发生了!</string>
-	<string name="prompt_loading">加载中…</string>
+	<string name="prompt_empty">Temporarily have no collection～</string>
+	<string name="prompt_error">something wrong!</string>
+	<string name="prompt_loading">loading…</string>
 
 	<!-- Messages -->
 	<string name="set_permissions_in_settings">Go to Settings -> Apps and Notifications ->

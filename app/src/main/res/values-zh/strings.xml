@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">鞋铺</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">空白 Fragment</string>
+
+    <string name="deeplink">深 链接</string>
+
+    <!-- fragment strings -->
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="sign_in">登录</string>
+    <string name="sign_up">注册</string>
+    <string name="join_us">加入我们</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="email_address">邮箱地址</string>
+    <string name="account_or_not">已有账号？登录</string>
+    <string name="tips_long">鞋铺-是一款关于鞋子的介绍店，想了解更多吗？开启旅程吧！</string>
+    <string name="tips_join">嘿，加入吧！</string>
+    <string name="tips_login">欢迎回来</string>
+
+
+    <!-- Screen strings -->
+    <string name="step_one">第一步</string>
+    <string name="step_two">第二步</string>
+    <string name="deep_link_instructions">输入链接参数</string>
+    <string name="settings_fragment_text">设置界面</string>
+    <string name="shopping_fragment_text">商品界面</string>
+    <string name="navigate_destination_button">跳转到目标</string>
+    <string name="navigate_action_button">携带动作跳转</string>
+    <string name="next_step_button">跳转到下一步</string>
+    <string name="finish_button">完成关注</string>
+    <string name="send_deep_link_notification_button">发送链接通知</string>
+
+
+    <string name="prompt_empty">暂时还没有收藏记录～</string>
+    <string name="prompt_error">这边有错误发生了!</string>
+    <string name="prompt_loading">加载中…</string>
+
+    <!-- Messages -->
+    <string name="set_permissions_in_settings">转到设置->应用程序和通知->工作管理器演示->应用程序权限并授予对存储的访问权限。</string>
+
+</resources>

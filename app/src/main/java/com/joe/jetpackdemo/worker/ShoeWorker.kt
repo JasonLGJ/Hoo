@@ -14,6 +14,9 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
 import java.lang.Exception
 
+/**
+ * 继承或者说，父类是CoroutineWorker，能让这个worker在协程里运行
+ */
 class ShoeWorker(
     context: Context,
     workerParams: WorkerParameters

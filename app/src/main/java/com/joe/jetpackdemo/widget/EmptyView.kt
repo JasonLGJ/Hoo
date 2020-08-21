@@ -33,17 +33,17 @@ class EmptyView(context: Context, attrs: AttributeSet?) : LinearLayout(context, 
         mLottieAnimationView = findViewById(R.id.lav_loading)
 
         // Load attributes
-        val a = getContext().obtainStyledAttributes(
+        val attrbuites = getContext().obtainStyledAttributes(
             attrs, R.styleable.EmptyView, 0, 0
         )
 
-        mDrawableIds[0] = a.getInt(R.styleable.EmptyView_comEmptyDrawable, R.drawable.empty_bg)
-        mDrawableIds[1] = a.getInt(R.styleable.EmptyView_comErrorDrawable, R.drawable.empty_bg)
-        mTextIds[0] = a.getInt(R.styleable.EmptyView_comEmptyText, R.string.prompt_empty)
-        mTextIds[1] = a.getInt(R.styleable.EmptyView_comErrorText, R.string.prompt_error)
-        mTextIds[2] = a.getInt(R.styleable.EmptyView_comLoadingText, R.string.prompt_loading)
+        mDrawableIds[0] = attrbuites.getInt(R.styleable.EmptyView_comEmptyDrawable, R.drawable.empty_bg)
+        mDrawableIds[1] = attrbuites.getInt(R.styleable.EmptyView_comErrorDrawable, R.drawable.empty_bg)
+        mTextIds[0] = attrbuites.getInt(R.styleable.EmptyView_comEmptyText, R.string.prompt_empty)
+        mTextIds[1] = attrbuites.getInt(R.styleable.EmptyView_comErrorText, R.string.prompt_error)
+        mTextIds[2] = attrbuites.getInt(R.styleable.EmptyView_comLoadingText, R.string.prompt_loading)
 
-        a.recycle()
+        attrbuites.recycle()
     }
 
 

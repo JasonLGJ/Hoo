@@ -45,10 +45,10 @@ class LoginFragment : Fragment() {
         // TODO 研究DataBindComponent
         // 1.Binding生成的方式一
         val binding: LoginFragmentBinding = DataBindingUtil.inflate(
-            inflater
-            , R.layout.login_fragment
-            , container
-            , false
+            inflater,
+            R.layout.login_fragment,
+            container,
+            false
         )
 
         // 2.Binding生成的方式二

@@ -78,8 +78,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun isPermissionGranted(permission: String) =
-        ContextCompat.checkSelfPermission(this, permission) ==
-                PackageManager.PERMISSION_GRANTED
+        ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_GRANTED
 
     override fun onRequestPermissionsResult(
         requestCode: Int,

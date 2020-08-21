@@ -32,16 +32,14 @@ abstract class AppDataBase:RoomDatabase() {
 
         fun getInstance(context:Context):AppDataBase{
             return instance?: synchronized(this){
-                instance?:buildDataBase(context)
-                    .also {
+                instance?:buildDataBase(context).also {
                         instance = it
                     }
             }
         }
 
         private fun buildDataBase(context: Context):AppDataBase{
-            return Room
-                .databaseBuilder(context,AppDataBase::class.java,"jetPackDemo-database")
+            return Room.databaseBuilder(context,AppDataBase::class.java,"jetPackDemo-database")
                 .addCallback(object :RoomDatabase.Callback(){
                     override fun onCreate(db: SupportSQLiteDatabase) {
                         super.onCreate(db)
@@ -50,8 +48,7 @@ abstract class AppDataBase:RoomDatabase() {
                         /*val request = OneTimeWorkRequestBuilder<ShoeWorker>().build()
                         WorkManager.getInstance().enqueue(request)*/
                     }
-                })
-                .build()
+                }).build()
         }
     }
 }

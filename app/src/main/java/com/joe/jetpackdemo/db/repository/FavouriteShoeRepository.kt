@@ -32,8 +32,8 @@ class FavouriteShoeRepository private constructor(private val favouriteShoeDao: 
 
         fun getInstance(favouriteShoeDao: FavouriteShoeDao): FavouriteShoeRepository =
             instance ?: synchronized(this) {
-                instance
-                    ?: FavouriteShoeRepository(favouriteShoeDao).also {
+                instance ?:
+                FavouriteShoeRepository(favouriteShoeDao).also {
                         instance = it
                     }
             }

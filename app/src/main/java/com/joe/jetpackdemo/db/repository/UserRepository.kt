@@ -52,8 +52,7 @@ class UserRepository private constructor(private val userDao: UserDao) {
 
         fun getInstance(userDao: UserDao): UserRepository =
             instance ?: synchronized(this) {
-                instance
-                    ?: UserRepository(userDao).also {
+                instance ?: UserRepository(userDao).also {
                     instance = it
                 }
             }

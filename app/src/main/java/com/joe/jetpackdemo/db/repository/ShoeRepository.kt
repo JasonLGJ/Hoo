@@ -40,8 +40,7 @@ class ShoeRepository private constructor(private val shoeDao: ShoeDao) {
 
         fun getInstance(shoeDao: ShoeDao): ShoeRepository =
             instance ?: synchronized(this) {
-                instance
-                    ?: ShoeRepository(shoeDao).also {
+                instance ?: ShoeRepository(shoeDao).also {
                         instance = it
                     }
             }

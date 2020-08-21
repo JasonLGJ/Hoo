@@ -11,8 +11,7 @@
 		android:id="@+id/login"
 		android:name="com.joe.jetpackdemo.ui.fragment.login.LoginFragment"
 		android:label="LoginFragment"
-		tools:layout="@layout/login_fragment"
-		/>
+		tools:layout="@layout/login_fragment" />
 
 	<fragment
 		android:id="@+id/welcome"
@@ -35,8 +34,7 @@
 		android:id="@+id/register"
 		android:name="com.joe.jetpackdemo.ui.fragment.login.RegisterFragment"
 		android:label="LoginFragment"
-		tools:layout="@layout/register_fragment"
-		>
+		tools:layout="@layout/register_fragment">
 
 		<argument
 			android:name="EMAIL"

@@ -33,10 +33,10 @@ class RegisterFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding: RegisterFragmentBinding = DataBindingUtil.inflate(
-            inflater
-            , R.layout.register_fragment
-            , container
-            , false
+            inflater,
+            R.layout.register_fragment,
+            container,
+            false
         )
 
         initData(binding)

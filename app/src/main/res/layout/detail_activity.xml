@@ -2,15 +2,12 @@
 <layout>
 
 	<data>
-
-
 		<variable
 			name="model"
 			type="com.joe.jetpackdemo.viewmodel.DetailModel" />
 
 		<import
 			type="android.view.View"/>
-
 	</data>
 
 	<androidx.constraintlayout.widget.ConstraintLayout
@@ -32,9 +29,7 @@
 			android:background="@drawable/detail_img_bg"
 			app:imageFromUrl="@{model.shoe.imageUrl}"
 			app:layout_constraintTop_toTopOf="parent"
-			app:layout_constraintBottom_toTopOf="@+id/guide"
-
-			/>
+			app:layout_constraintBottom_toTopOf="@+id/guide" />
 
 		<androidx.constraintlayout.widget.Guideline
 			android:id="@+id/guide"
